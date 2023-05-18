@@ -1,0 +1,22 @@
+#Para instalar y actualizar
+> install.packages("devtools", dependencies=TRUE)
+> install.packages("regressoR", dependencies=TRUE)
+> devtools::install_github("PROMiDAT/regressoR")
+
+Seleccionar 3
+
+#Para instalar regressoR
+> install.packages("devtools", dependencies=TRUE)
+> install.packages("regressoR", dependencies=TRUE)
+
+#Previo a ejecutar
+> options(stringsAsFactors = T)
+#Para ejecutar
+#Menu Addins regressoR (con minusculas) o
+> regressoR:::init_regressoR()
+
+#Para actualizar
+> install.packages("devtools",dependencies=TRUE)
+> devtools::install_github("PROMiDAT/regressoR")
+
+Seleccionar 3

@@ -1,0 +1,23 @@
+#Para instalar y actualizar
+> install.packages("devtools", dependencies=TRUE)
+> install.packages("predictoR", dependencies=TRUE)
+> devtools::install_github("PROMiDAT/predictoR")
+
+Seleccionar 3
+
+Seleccionar 3
+#Para instalar predictoR
+> install.packages("devtools", dependencies=TRUE)
+> install.packages("predictoR", dependencies=TRUE)
+
+#Previo a ejecutar
+> options(stringsAsFactors = T)
+#Para ejecutar
+#Menu Addins predictoR con minusculas o
+> predictoR:::init_predictor()
+
+#Para actualizar
+> install.packages("devtools",dependencies=TRUE)
+> devtools::install_github("PROMiDAT/predictoR")
+
+Seleccionar 3

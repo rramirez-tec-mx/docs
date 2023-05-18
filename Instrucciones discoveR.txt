@@ -1,0 +1,22 @@
+#Para instalar y actualizar
+> install.packages("devtools", dependencies=TRUE)
+> install.packages("discoveR", dependencies=TRUE)
+> devtools::install_github("PROMiDAT/discoveR")
+
+Seleccionar 3
+
+#Para instalar discoveR
+> install.packages("devtools", dependencies=TRUE)
+> install.packages("discoveR", dependencies=TRUE)
+
+#Previo a ejecutar
+> options(stringsAsFactors = T)
+#Para ejecutar
+#Menu Addins discoveR (con minusculas) o
+> discoveR:::init_discover()
+
+#Para actualizar
+> install.packages("devtools", dependencies=TRUE)
+> devtools::install_github("PROMiDAT/discoveR")
+
+Seleccionar 3
